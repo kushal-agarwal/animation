@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgba(19, 173, 73, 0.257);
+    text-align: center;
+}
+audio{
+    height: 40px;
+    width: 500px;
+    padding-top: 2%;
+}
+img{
+    padding: 10% 0 0 0;
+    animation: robot 4s infinite;
+}
+@keyframes robot {
+    25%{transform: translateX(20%);}
+    50%{transform: scalez(10%);}
+    75%{transform: translateX(20%);}
+    100%{transform: scalez(10%);}
+}
